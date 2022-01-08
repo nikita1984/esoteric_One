@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikita1984/sendiIt.git"
+    "url": "git+https://github.com/nikita1984/esoteric_One"
   },
   "keywords": [],
   "dependencies": {
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikita1984/sendiIt/issues"
+    "url": "https://github.com/nikita1984/esoteric_One/issues"
   },
-  "homepage": "https://github.com/nikita1984/sendiIt#readme"
+  "homepage": "https://github.com/nikita1984/esoteric_One#readme"
 }
