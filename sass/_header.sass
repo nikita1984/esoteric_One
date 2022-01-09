@@ -1,0 +1,35 @@
+header
+    padding: 
+        top: 36 * 100 / 480 * 1vw
+        left: 80 * 100 / 480 * 1vw
+        right: 80 * 100 / 480 * 1vw
+    height:  1423 * 100 / 480 * 1vw
+    background-image: url('../images/header__image_mobile.jpg')
+    background-repeat: no-repeat, no-repeat
+    background-size: contain
+    display: flex
+    align-items: center
+    flex-direction: column
+    position: relative
+    &:after 
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(66, 25, 109, 0.8)
+        z-index: 2
+
+.headerOne__aboutMeasure
+    display: flex
+    align-items: center
+    flex-direction: column
+.headerOne__logoBlock 
+    width: ((52 * 100) / 480) * 1vw
+    margin-bottom: 24 * 100 / 480 * 1vw
+    z-index: 3
+.headerOne__aboutMeasure-text
+    color: #FFFFFF
+    text-align: center
+    z-index: 3

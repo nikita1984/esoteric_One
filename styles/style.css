@@ -1,10 +1,103 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-FREE/Gilroy-Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
 * {
   box-sizing: border-box;
   outline: none;
 }
 
-a {
+a, li {
   text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* 62.5% of the base size of 16px = 10px.*/
+body {
+  font-size: 1.6rem;
+}
+
+/* reset 10*1.6 = 16px, to make sure you do not get any 10px around */
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 1920px;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0 auto;
+  font-family: "Gilroy";
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.624rem;
+}
+
+header {
+  padding-top: 7.5vw;
+  padding-left: 16.6666666667vw;
+  padding-right: 16.6666666667vw;
+  height: 296.4583333333vw;
+  background-image: url("../images/header__image_mobile.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(66, 25, 109, 0.8);
+  z-index: 2;
+}
+
+.headerOne__aboutMeasure {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerOne__logoBlock {
+  width: 10.8333333333vw;
+  margin-bottom: 5vw;
+  z-index: 3;
+}
+
+.headerOne__aboutMeasure-text {
+  color: #FFFFFF;
+  text-align: center;
+  z-index: 3;
 }
 
 /*# sourceMappingURL=style.css.map */
