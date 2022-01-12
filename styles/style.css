@@ -59,6 +59,11 @@ p {
   line-height: 1.624rem;
 }
 
+h1 {
+  font-size: 3rem;
+  line-height: 3.627rem;
+}
+
 header {
   padding-top: 3.6rem;
   height: 296.4583333333vw;
