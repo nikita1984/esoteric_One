@@ -1,4 +1,4 @@
-header
+.header
     padding: 
         top: 3.6rem
         // left: 80 * 100 / 480 * 1vw
@@ -12,6 +12,8 @@ header
     align-items: center
     flex-direction: column
     position: relative
+    color: #FFFFFF
+    text-align: center
     @media screen and (min-width: 480px)
         padding: 
             top: 36 * 100 / 480 * 1vw
@@ -24,20 +26,17 @@ header
         bottom: 0
         background: rgba(66, 25, 109, 0.8)
         z-index: 2
+    & > section  
+        max-width: 320px 
+        z-index: 3 
 
-.headerOne__aboutMeasure
+.header__topSection
     display: flex
     align-items: center
     flex-direction: column
-    z-index: 3
-    max-width: 320px
-.headerOne__logoBlock 
+
+.header__logoBlock 
     width: 52px
     margin-bottom: 2.4rem
     @media screen and (min-width: 480px)
         margin-bottom: 24 * 100 / 480 * 1vw
-.headerOne__aboutMeasure-text
-    display: block
-    color: #FFFFFF
-    text-align: center
-    font-size: 1.5rem

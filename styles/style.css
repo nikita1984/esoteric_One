@@ -59,12 +59,7 @@ p {
   line-height: 1.624rem;
 }
 
-h1 {
-  font-size: 3rem;
-  line-height: 3.627rem;
-}
-
-header {
+.header {
   padding-top: 3.6rem;
   height: 296.4583333333vw;
   min-height: 1423px;
@@ -75,13 +70,15 @@ header {
   align-items: center;
   flex-direction: column;
   position: relative;
+  color: #FFFFFF;
+  text-align: center;
 }
 @media screen and (min-width: 480px) {
-  header {
+  .header {
     padding-top: 7.5vw;
   }
 }
-header:after {
+.header:after {
   content: "";
   position: absolute;
   top: 0;
@@ -91,30 +88,49 @@ header:after {
   background: rgba(66, 25, 109, 0.8);
   z-index: 2;
 }
+.header > section {
+  max-width: 320px;
+  z-index: 3;
+}
 
-.headerOne__aboutMeasure {
+.header__topSection {
   display: flex;
   align-items: center;
   flex-direction: column;
-  z-index: 3;
-  max-width: 320px;
 }
 
-.headerOne__logoBlock {
+.header__logoBlock {
   width: 52px;
   margin-bottom: 2.4rem;
 }
 @media screen and (min-width: 480px) {
-  .headerOne__logoBlock {
+  .header__logoBlock {
     margin-bottom: 5vw;
   }
 }
 
-.headerOne__aboutMeasure-text {
-  display: block;
+.textColor_theme_white {
   color: #FFFFFF;
-  text-align: center;
+}
+
+.textColor_theme_yellow {
+  color: #FCE559;
+}
+
+.h1 {
+  font-size: 2.9rem;
+  line-height: 3.627rem;
+  text-transform: uppercase;
+}
+
+.h6 {
   font-size: 1.5rem;
+}
+
+.hr {
+  width: 70px;
+  border-width: 2px;
+  border-color: #FAD264;
 }
 
 /*# sourceMappingURL=style.css.map */
