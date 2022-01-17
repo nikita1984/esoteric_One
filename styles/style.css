@@ -77,6 +77,7 @@ p {
   font-size: 2.9rem;
   line-height: 3.627rem;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .h4 {
@@ -87,27 +88,14 @@ p {
 .h6 {
   font-size: 1.4rem;
   line-height: 1.6rem;
+  margin: 0;
 }
 
 .hr {
   width: 70px;
+  margin: 0;
   border-width: 2px;
   border-color: #FAD264;
-}
-
-.blank {
-  height: 145px;
-  width: 320px;
-  border-radius: 30px;
-  background: #FFFFFF;
-  opacity: 80%;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-  color: #000000;
-}
-
-.blank__h6 {
-  font-size: 1.6rem;
-  line-height: 1.9rem;
 }
 
 .circle {
@@ -116,12 +104,33 @@ p {
   background-color: #FAD264;
   border-radius: 50px;
 }
-
 .circle__star {
-  width: 25.84px;
-  height: 24.44px;
-  vertical-align: middle;
-  vertical-align: -webkit-baseline-middle;
+  width: 58.7272727273%;
+  height: 55.5454545455%;
+  margin-top: 20.6363636364%;
+}
+
+.blank {
+  height: 145px;
+  width: 320px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  padding: 0 7%;
+}
+
+.blank__h6 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.blank__circle {
+  align-self: center;
+  position: relative;
+  bottom: 22px;
 }
 
 .header {
@@ -164,6 +173,10 @@ p {
   flex-direction: column;
 }
 
+.header__bottomSection {
+  padding-top: 3.7rem;
+}
+
 .header__logoBlock {
   width: 52px;
   margin-bottom: 2.4rem;
@@ -176,6 +189,33 @@ p {
 
 .header__h6 {
   font-size: 1.5rem;
+}
+
+.header__hr {
+  margin: 2.6rem auto;
+}
+
+.header__blanksArea {
+  margin: 3.9rem auto;
+}
+
+.header__blank {
+  margin-bottom: 5rem;
+}
+.header__blank:last-child {
+  margin-bottom: unset;
+}
+
+.header__timeAndPlace {
+  display: flex;
+}
+
+.header__timeAndPlace-iconBlock {
+  width: 10%;
+}
+
+.timeAndPlace__article {
+  width: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */
