@@ -69,7 +69,6 @@ p {
 
 .text_bold {
   font-weight: 700;
-  line-height: 2.176rem;
 }
 
 .h1 {
@@ -82,7 +81,13 @@ p {
 
 .h4 {
   font-size: 2.4rem;
-  line-height: 2.784rem;
+  line-height: 2.8rem;
+}
+
+.h5 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  margin: unset;
 }
 
 .h6 {
@@ -208,14 +213,26 @@ p {
 
 .header__timeAndPlace {
   display: flex;
+  align-items: center;
 }
 
 .header__timeAndPlace-iconBlock {
   width: 10%;
 }
 
-.timeAndPlace__article {
-  width: 90%;
+.header__timeAndPlace-article {
+  text-align: left;
+  margin-left: 4%;
+  width: 86%;
+}
+
+.header__form {
+  margin-top: 4rem;
+}
+
+.header__form-button {
+  margin-top: 2.6rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
