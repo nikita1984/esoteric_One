@@ -264,7 +264,8 @@ p {
 }
 
 .header__form {
-  margin-top: 4rem;
+  margin: 4rem 0;
+  padding: 0 20px;
 }
 
 .header__form-button {
@@ -273,10 +274,31 @@ p {
 }
 
 .header__form-p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.6rem;
   letter-spacing: 0.1rem;
-  word-spacing: 0.2rem;
+}
+
+.header__offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__offer-iconBlock {
+  width: 4.21rem;
+  width: 13.15625%;
+  width: 20%;
+}
+
+.header__offer-article {
+  width: 75%;
+}
+
+.header__offer-text {
+  font-size: 1.4rem;
+  text-align: left;
+  margin: unset;
 }
 
 /*# sourceMappingURL=style.css.map */
