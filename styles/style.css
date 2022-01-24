@@ -272,4 +272,11 @@ p {
   margin-bottom: 1rem;
 }
 
+.header__form-p {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
