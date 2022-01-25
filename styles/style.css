@@ -53,12 +53,6 @@ body {
   font-family: "Gilroy";
 }
 
-p {
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.624rem;
-}
-
 .text_color_white {
   color: #FFFFFF;
 }
@@ -73,7 +67,7 @@ p {
 
 .h1 {
   font-weight: 700;
-  font-size: 2.9rem;
+  font-size: 2.8rem;
   line-height: 3.627rem;
   text-transform: uppercase;
   margin: 0;
@@ -182,8 +176,7 @@ p {
 
 .header {
   padding-top: 3.6rem;
-  height: 296.4583333333vw;
-  min-height: 1423px;
+  height: 1423px;
   background-image: url("../images/header__image_mobile.jpg");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
@@ -193,11 +186,6 @@ p {
   position: relative;
   color: #FFFFFF;
   text-align: center;
-}
-@media screen and (min-width: 480px) {
-  .header {
-    padding-top: 7.5vw;
-  }
 }
 .header:after {
   content: "";
@@ -228,11 +216,6 @@ p {
   width: 52px;
   margin-bottom: 2.4rem;
 }
-@media screen and (min-width: 480px) {
-  .header__logoBlock {
-    margin-bottom: 5vw;
-  }
-}
 
 .header__h6 {
   font-size: 1.5rem;
@@ -249,6 +232,11 @@ p {
 .header__timeAndPlace {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 320px) {
+  .header__timeAndPlace {
+    margin-left: 10px;
+  }
 }
 
 .header__timeAndPlace-iconBlock {
@@ -281,6 +269,11 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 320px) {
+  .header__offer {
+    margin-left: 10px;
+  }
 }
 
 .header__offer-iconBlock {
