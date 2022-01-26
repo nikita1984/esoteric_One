@@ -176,7 +176,7 @@ body {
 
 .header {
   padding-top: 3.6rem;
-  height: 1423px;
+  height: 142.3rem;
   background-image: url("../images/header__image_mobile.jpg");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
@@ -198,7 +198,7 @@ body {
   z-index: 2;
 }
 .header > section {
-  max-width: 320px;
+  max-width: 32rem;
   z-index: 3;
 }
 
