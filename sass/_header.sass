@@ -21,7 +21,11 @@
         z-index: 2
     & > section  
         max-width: 32rem
-        z-index: 3 
+        z-index: 3
+        @media screen and (min-width: $tablet_small)
+            max-width: 69rem
+    @media screen and (min-width: $tablet_small)
+        background-image: url('../images/header__image_tablet.jpg')    
 
 .header__topSection
     display: flex
@@ -36,11 +40,16 @@
     margin-bottom: 2.4rem
 
 .header__h6
-    font-size: 1.5rem        
+    @media screen and (max-width: $tablet_small - 1)
+        font-size: 1.5rem        
 
 .header__hr
     margin: 2.6rem auto
-   
+
+.header__h4
+    @media screen and (min-width: $tablet_small)
+        line-height: 2.9rem
+
 .header__blanksArea
     margin: 3.9rem auto
 
