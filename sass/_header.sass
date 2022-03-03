@@ -85,11 +85,20 @@
 .header__form
     margin: 4rem 0
     padding: 0 20px
-
+        
+    @media screen and (min-width: $tablet_small)
+        padding: 0        
+.header__form-input
+    @media screen and (min-width: $tablet_small)
+        width: 270px
+        padding: 0  
 .header__form-button
     margin: 
         top: 2.6rem
         bottom: 1rem
+    @media screen and (min-width: $tablet_small)
+        width: 270px
+        margin-top: 0
     
 .header__form-p
     font-size: 1.3rem
