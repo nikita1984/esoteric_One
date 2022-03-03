@@ -233,6 +233,11 @@ body {
 .header__bottomSection {
   padding-top: 3.7rem;
 }
+@media screen and (min-width: 768px) {
+  .header__bottomSection {
+    width: 76%;
+  }
+}
 
 .header__logoBlock {
   width: 52px;
@@ -277,15 +282,37 @@ body {
     margin-left: 10px;
   }
 }
+@media screen and (min-width: 768px) {
+  .header__timeAndPlace {
+    padding-left: 3%;
+  }
+}
 
 .header__timeAndPlace-iconBlock {
   width: 10%;
+}
+@media screen and (min-width: 768px) {
+  .header__timeAndPlace-iconBlock {
+    width: 5%;
+  }
 }
 
 .header__timeAndPlace-article {
   text-align: left;
   margin-left: 4%;
   width: 86%;
+}
+@media screen and (min-width: 768px) {
+  .header__timeAndPlace-article {
+    margin-left: 3%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__timeAndPlace-br {
+    display: none;
+  }
 }
 
 .header__form {

@@ -34,6 +34,8 @@
 
 .header__bottomSection
     padding-top: 3.7rem
+    @media screen and (min-width: $tablet_small)
+        width: 76%
     
 .header__logoBlock 
     width: 52px
@@ -52,7 +54,7 @@
 
 .header__blanksArea
     margin: 3.9rem auto
-
+    
 .header__blank
     width: 320px
     @media screen and (min-width: $tablet_small)
@@ -63,12 +65,22 @@
     align-items: center
     @media screen and (max-width: $mobile_small)
         margin-left: 10px
+    @media screen and (min-width: $tablet_small)    
+        padding-left: 3%
 .header__timeAndPlace-iconBlock
     width: 10%
+    @media screen and (min-width: $tablet_small)
+        width: 5%
 .header__timeAndPlace-article
     text-align: left
     margin-left: 4%
     width: 86%
+    @media screen and (min-width: $tablet_small)
+        margin-left: 3%
+        width: 100%
+.header__timeAndPlace-br
+    @media screen and (min-width: $tablet_small)
+        display: none        
 
 .header__form
     margin: 4rem 0
