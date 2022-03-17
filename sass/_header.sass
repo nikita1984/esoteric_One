@@ -36,6 +36,7 @@
     padding-top: 3.7rem
     @media screen and (min-width: $tablet_small)
         width: 76%
+        padding-top: 4.7rem
     
 .header__logoBlock 
     width: 52px
@@ -47,6 +48,8 @@
 
 .header__hr
     margin: 2.6rem auto
+    @media screen and (min-width: $tablet_small)
+        margin-top: 3.8rem
 
 .header__h4
     @media screen and (min-width: $tablet_small)
@@ -67,6 +70,7 @@
         margin-left: 10px
     @media screen and (min-width: $tablet_small)    
         padding-left: 3%
+        margin-top: 7rem
 .header__timeAndPlace-iconBlock
     width: 10%
     @media screen and (min-width: $tablet_small)
@@ -85,9 +89,13 @@
 .header__form
     margin: 4rem 0
     padding: 0 20px
-        
     @media screen and (min-width: $tablet_small)
-        padding: 0        
+        margin-top: 6rem
+        padding: 0
+.header__form-topBlock
+    @media screen and (min-width: $tablet_small)
+        display: flex
+        justify-content: space-between
 .header__form-input
     @media screen and (min-width: $tablet_small)
         width: 270px
@@ -99,11 +107,13 @@
     @media screen and (min-width: $tablet_small)
         width: 270px
         margin-top: 0
-    
 .header__form-p
     font-size: 1.3rem
     line-height: 1.6rem
     letter-spacing: 0.1rem
+    @media screen and (min-width: $tablet_small)
+        margin-top: 2.5rem
+        letter-spacing: 0.2rem
 
 .header__offer
     display: flex
@@ -111,18 +121,25 @@
     align-items: center
     @media screen and (max-width: $mobile_small)
         margin-left: 10px
+    @media screen and (min-width: $tablet_small) 
+        margin-left: 5%    
 .header__offer-iconBlock
-    width: 4.21rem
-    width: calc(42.1 * 100 / 320) * 1% 
-    width: 20%
+    // temporary not delete 
+    // width: 4.21rem
+    // width: calc(42.1 * 100 / 320) * 1% 
+    // width: 20%
 .header__offer-article
     width: 75%
+    @media screen and (min-width: $tablet_small) 
+        width: 87.5%
 .header__offer-text
     font-size: 1.4rem
     text-align: left
-    margin: unset            
-
-
+    margin: unset
+    @media screen and (min-width: $tablet_small)            
+        font-size: 1.6rem
+        line-height: 1.9rem
+        letter-spacing: 0.15rem
 
     
 

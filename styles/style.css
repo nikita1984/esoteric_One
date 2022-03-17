@@ -236,6 +236,7 @@ body {
 @media screen and (min-width: 768px) {
   .header__bottomSection {
     width: 76%;
+    padding-top: 4.7rem;
   }
 }
 
@@ -252,6 +253,11 @@ body {
 
 .header__hr {
   margin: 2.6rem auto;
+}
+@media screen and (min-width: 768px) {
+  .header__hr {
+    margin-top: 3.8rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -285,6 +291,7 @@ body {
 @media screen and (min-width: 768px) {
   .header__timeAndPlace {
     padding-left: 3%;
+    margin-top: 7rem;
   }
 }
 
@@ -321,7 +328,15 @@ body {
 }
 @media screen and (min-width: 768px) {
   .header__form {
+    margin-top: 6rem;
     padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__form-topBlock {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -348,6 +363,12 @@ body {
   line-height: 1.6rem;
   letter-spacing: 0.1rem;
 }
+@media screen and (min-width: 768px) {
+  .header__form-p {
+    margin-top: 2.5rem;
+    letter-spacing: 0.2rem;
+  }
+}
 
 .header__offer {
   display: flex;
@@ -359,21 +380,32 @@ body {
     margin-left: 10px;
   }
 }
-
-.header__offer-iconBlock {
-  width: 4.21rem;
-  width: 13.15625%;
-  width: 20%;
+@media screen and (min-width: 768px) {
+  .header__offer {
+    margin-left: 5%;
+  }
 }
 
 .header__offer-article {
   width: 75%;
+}
+@media screen and (min-width: 768px) {
+  .header__offer-article {
+    width: 87.5%;
+  }
 }
 
 .header__offer-text {
   font-size: 1.4rem;
   text-align: left;
   margin: unset;
+}
+@media screen and (min-width: 768px) {
+  .header__offer-text {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.15rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
