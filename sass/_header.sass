@@ -32,11 +32,17 @@
     align-items: center
     flex-direction: column
 
+.header__h1
+    font-family: $bootstrapDefaultFonts
+    @media screen and (min-width: $tablet_small)
+        font-size: 4.3rem
+        line-height: 6.4rem
+
 .header__bottomSection
     padding-top: 3.7rem
     @media screen and (min-width: $tablet_small)
         width: 76%
-        padding-top: 4.7rem
+        padding-top: 5.1rem
     
 .header__logoBlock 
     width: 52px
@@ -45,6 +51,8 @@
 .header__h6
     @media screen and (max-width: $tablet_small - 1)
         font-size: 1.5rem        
+    @media screen and (min-width: $tablet_small)
+        margin-top: 1.6rem
 
 .header__hr
     margin: 2.6rem auto
@@ -70,7 +78,7 @@
         margin-left: 10px
     @media screen and (min-width: $tablet_small)    
         padding-left: 3%
-        margin-top: 7rem
+        margin-top: 8rem
 .header__timeAndPlace-iconBlock
     width: 10%
     @media screen and (min-width: $tablet_small)
@@ -90,7 +98,7 @@
     margin: 4rem 0
     padding: 0 20px
     @media screen and (min-width: $tablet_small)
-        margin-top: 6rem
+        margin-top: 6.5rem
         padding: 0
 .header__form-topBlock
     @media screen and (min-width: $tablet_small)
@@ -108,11 +116,13 @@
         width: 270px
         margin-top: 0
 .header__form-p
-    font-size: 1.3rem
-    line-height: 1.6rem
-    letter-spacing: 0.1rem
+    font-family: $bootstrapDefaultFonts
+    font-size: 1.2rem
+    // line-height: 1.6rem
+    // letter-spacing: 0.1rem
     @media screen and (min-width: $tablet_small)
-        margin-top: 2.5rem
+        font-family: $bootstrapDefaultFonts
+        margin-top: 3.3rem
         letter-spacing: 0.2rem
 
 .header__offer
@@ -121,7 +131,8 @@
     align-items: center
     @media screen and (max-width: $mobile_small)
         margin-left: 10px
-    @media screen and (min-width: $tablet_small) 
+    @media screen and (min-width: $tablet_small)
+        margin-top: 5rem 
         margin-left: 5%    
 .header__offer-iconBlock
     // temporary not delete 
@@ -139,7 +150,10 @@
     @media screen and (min-width: $tablet_small)            
         font-size: 1.6rem
         line-height: 1.9rem
-        letter-spacing: 0.15rem
+        letter-spacing: 0.18rem
+.header__offer-br
+    @media screen and (max-width: $tablet_small - 1)
+        display: none        
 
     
 
