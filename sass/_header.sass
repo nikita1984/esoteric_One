@@ -19,51 +19,76 @@
         bottom: 0
         background: rgba(66, 25, 109, 0.8)
         z-index: 2
-        @media screen and (min-width: $desctop_small)
+        @media screen and (min-width: $desctop_medium)
             background: rgba(50, 11, 97, 0.8)
     & > section  
-        max-width: 32rem
-        z-index: 3
-        @media screen and (min-width: $tablet_small)
-            max-width: 69rem
+        // max-width: 320px
+        // z-index: 3
+        // @media screen and (min-width: $tablet_small)
+        //     max-width: 690px
+        // @media screen and (min-width: $desctop_medium)    
+        //    max-width: $desctopContainer_width
     @media screen and (min-width: $tablet_small)
+        // TODO:  перепозиционировать элементы по высоте под height:  130.6rem     
+        // height:  130.6rem
         background-image: url('../images/header__image_tablet.jpg')    
-    @media screen and (min-width: $desctop_small)
+    @media screen and (min-width: $desctop_medium)
+        height:  86rem
         background-image: url('../images/header__image_desctop.jpg') 
 
 .header__topSection
+    @extend %header__sections_widthAndZIndex
     display: flex
     align-items: center
     flex-direction: column
+    @media screen and (min-width: $desctop_medium)
+        flex-direction: row
+        width: 920px
+        height: 68px
 
+.header__logoBlock 
+    width: 5.2rem
+    margin-bottom: 2.4rem
+    @media screen and (min-width: $desctop_medium)
+        width: 68px
+        height: 100%
+        margin-right: 15px
+        margin-bottom: 0
+        & > img
+            width: auto
+.header__h6
+    @media screen and (max-width: $tablet_small - 1)
+        font-size: 1.5rem        
+    @media screen and (min-width: $tablet_small) and (max-width: $desctop_medium - 1)
+        margin-top: 1.6rem
+    @media screen and (min-width: $tablet_small)    
+        font-size: 2.0rem
+
+.header__bottomSection
+    @extend %header__sections_widthAndZIndex
+    position: relative
+    padding-top: 37px
+    @media screen and (min-width: $tablet_small)
+        width: 76%
+        padding-top: 5.1rem
+    @media screen and (min-width: $desctop_medium)
+        padding-top: 36px    
+        
 .header__h1
     font-family: $bootstrapDefaultFonts
     // temporary not delete 
     // @media screen and (min-width: $tablet_small)
     //     font-size: 4.3rem
     //     line-height: 6.4rem
-
-.header__bottomSection
-    position: relative
-    padding-top: 3.7rem
-    @media screen and (min-width: $tablet_small)
-        width: 76%
-        padding-top: 5.1rem
-    
-.header__logoBlock 
-    width: 52px
-    margin-bottom: 2.4rem
-
-.header__h6
-    @media screen and (max-width: $tablet_small - 1)
-        font-size: 1.5rem        
-    @media screen and (min-width: $tablet_small)
-        margin-top: 1.6rem
-
+    @media screen and (min-width: $desctop_medium)
+        font-size: 4.8rem
+        
 .header__hr
     margin: 2.6rem auto
     @media screen and (min-width: $tablet_small)
-        margin-top: 3.8rem
+        margin-top: 38px
+    @media screen and (min-width: $desctop_medium)
+        margin-top: 24px
 
 .header__h4
     @media screen and (min-width: $tablet_small)
@@ -71,7 +96,6 @@
 
 .header__blanksArea
     margin: 3.9rem auto
-    
 .header__blank
     width: 320px
     @media screen and (min-width: $tablet_small)
