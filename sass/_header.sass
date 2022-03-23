@@ -91,9 +91,14 @@
         margin-top: 24px
 
 .header__h4
-    @media screen and (min-width: $tablet_small)
-        line-height: 2.9rem
-
+    @media screen and (max-width: $tablet_small - 1)
+        font-size: 2.1rem
+    @media screen and (min-width: $desctop_medium)
+        word-spacing: 0.3rem
+.header__h4-br
+    @media screen and (max-width: $desctop_medium - 1)
+        display: none
+        
 .header__blanksArea
     margin: 3.9rem auto
 .header__blank
