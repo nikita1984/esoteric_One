@@ -115,6 +115,12 @@ body {
   line-height: 2.2rem;
   margin: unset;
 }
+@media screen and (min-width: 1200px) {
+  .h5 {
+    font-size: 2.1rem;
+    line-height: 2.418rem;
+  }
+}
 
 .h6 {
   font-size: 1.4rem;
@@ -185,10 +191,20 @@ body {
     height: 14.5rem;
   }
 }
+@media screen and (min-width: 1200px) {
+  .blank__inner {
+    height: 12.5rem;
+  }
+}
 
 .blank__h6 {
   font-size: 1.6rem;
   line-height: 1.9rem;
+}
+@media screen and (min-width: 1200px) {
+  .blank__h6 {
+    font-size: 1.8rem;
+  }
 }
 
 .blank__circle {
@@ -325,6 +341,9 @@ body {
 @media screen and (min-width: 1200px) {
   .header__bottomSection {
     padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -371,6 +390,12 @@ body {
 .header__blanksArea {
   margin: 3.9rem auto;
 }
+@media screen and (min-width: 1200px) {
+  .header__blanksArea {
+    width: 965px;
+    margin: -0.9rem auto;
+  }
+}
 
 .header__blank {
   width: 320px;
@@ -378,6 +403,11 @@ body {
 @media screen and (min-width: 768px) {
   .header__blank {
     width: 269px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__blank {
+    width: 285px;
   }
 }
 
@@ -393,7 +423,14 @@ body {
 @media screen and (min-width: 768px) {
   .header__timeAndPlace {
     padding-left: 3%;
-    margin-top: 8rem;
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__timeAndPlace {
+    padding-left: 0;
+    width: 54%;
+    margin-top: 43px;
   }
 }
 
@@ -418,6 +455,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .header__timeAndPlace-h5 {
+    word-spacing: 0.1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header__timeAndPlace-br {
     display: none;
@@ -430,8 +473,14 @@ body {
 }
 @media screen and (min-width: 768px) {
   .header__form {
-    margin-top: 6.5rem;
+    margin-top: 65px;
     padding: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__form {
+    margin-top: 52px;
+    margin-bottom: 47px;
   }
 }
 
@@ -441,11 +490,21 @@ body {
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header__form-topBlock {
+    width: 538px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .header__form-input {
     width: 270px;
     padding: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__form-input {
+    width: 254px;
   }
 }
 
@@ -459,6 +518,11 @@ body {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header__form-button {
+    width: 254px;
+  }
+}
 
 .header__form-p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -467,8 +531,13 @@ body {
 @media screen and (min-width: 768px) {
   .header__form-p {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    margin-top: 3.3rem;
+    margin-top: 33px;
     letter-spacing: 0.2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__form-p {
+    margin-top: 19px;
   }
 }
 
@@ -484,8 +553,14 @@ body {
 }
 @media screen and (min-width: 768px) {
   .header__offer {
-    margin-top: 5rem;
+    margin-top: 50px;
     margin-left: 5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__offer {
+    width: 45%;
+    margin: 0;
   }
 }
 
@@ -495,6 +570,11 @@ body {
 @media screen and (min-width: 768px) {
   .header__offer-article {
     width: 87.5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__offer-article {
+    margin-left: 7%;
   }
 }
 
@@ -508,6 +588,14 @@ body {
     font-size: 1.6rem;
     line-height: 1.9rem;
     letter-spacing: 0.18rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__offer-text {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
   }
 }
 
@@ -526,6 +614,12 @@ body {
     position: absolute;
     top: 513px;
     left: -52px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__mystic-constellation-1 {
+    top: 407px;
+    left: 23px;
   }
 }
 
