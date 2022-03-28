@@ -340,6 +340,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .header__bottomSection {
+    width: 100%;
     padding-top: 36px;
     display: flex;
     flex-direction: column;
@@ -620,6 +621,11 @@ body {
   .header__mystic-constellation-1 {
     top: 407px;
     left: 23px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .header__mystic-constellation-1 {
+    left: 22px;
   }
 }
 
